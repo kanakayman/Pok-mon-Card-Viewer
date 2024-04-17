@@ -1,0 +1,94 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(51,154,175,1) 71%);
+}
+.card{
+  background-color: #dbb20e;
+  width: 700px;
+  height: 700px;
+  margin: auto;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px black;
+}
+.innerBorder{
+  background-color: rgba(138, 132, 132, 0.616);
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  inset: 2.4%;
+}
+.top{
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  font-size: 1.5rem;
+  height: 50px;
+  font-weight: bold;
+}
+#name{
+  text-align: left;
+  margin-left: 7%;
+}
+
+.secondSec{
+  width: 90%;
+  height: 50%;
+  margin: auto;
+}
+.secondSec img{
+  background-color: #86783f;
+  width: 100%;
+  height: 100%;
+}
+.stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 0px;
+  border-radius: 20px;
+  background-color: silver;
+}
+#type {
+  margin-left: 10px;
+}
+#weight{
+  margin-right: 10px;
+}
+.thirdSec{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  font-weight: bold;
+  align-items: center;
+}
+#pokemonName{
+  height: 40px;
+  font-size: 2rem;
+}
+#submit{
+  background-color: rgba(0, 0, 0, 0.863);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  margin-top: 20px;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#submit:hover{
+  opacity: 0.9;
+}
+
+#submit:active{
+  background-color: azure;
+  color: rgba(0, 0, 0, 0.863);
+}
+
+
